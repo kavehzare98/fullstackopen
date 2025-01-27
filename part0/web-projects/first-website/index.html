@@ -6,20 +6,21 @@
         <title>
             Rami's Data Science Workshop
         </title>
+        <link href="styles/style.css" rel="stylesheet" />       <!-- this is how you include CSS files for styling-->
     </head>
 
     <body>
         <h1>
             Rami's Data Science Workshop
         </h1>
-        <img src="images/rami.png" width="500" alt="A screenshot of a Linkedin post about an online data science workshop offered by Rami Krispin" />                      <!-- the alt attribute is for visually impaired users-->
-        <p>
+        <img src="images/rami.png" alt="A screenshot of a Linkedin post about an online data science workshop offered by Rami Krispin" />                      <!-- the alt attribute is for visually impaired users-->
+        <p class="link">
             Heading elements allow you to specify that certain parts of <br>
             your content are headings — or subheadings. In the same way <br>
             that a book has the main title, chapter titles, and subtitles, <br>
             an HTML document can too. HTML contains 6 heading levels, <\h1> - <br>
             <\h6>, although you'll commonly only use 3 to 4 at most:
-            <ul>
+            <ul id="my-id">
                 <li>Hello World!</li>
                 <li>How's it going?</li>
                 <li>Kaveh, here!</li>
@@ -27,17 +28,10 @@
         </p>
         
         <p> Here's a important <strong>LINK</strong>: <br>
-            <a href="https://www.mozilla.org/en-US/about/manifesto/"> 
+            <a  href="https://www.mozilla.org/en-US/about/manifesto/" > 
                 Mozilla Manifesto 
             </a>
         </p>
         
     </body>
 </html>
-
-<style>
-    body {
-        text-align: center;
-        padding: 100px;
-    }
-</style>
