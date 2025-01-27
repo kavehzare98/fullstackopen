@@ -26,15 +26,4 @@ sequenceDiagram:
     server-->>browser:[{"content": "d", "date": "2025-01-27T14:41:39.495Z"},...]
     deactivate server
 
-    Note right of browser: The browser executes the callback function that renders the notes.
-
-    after form submission
-
-    browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
-    activate server
-    server-->>browser: JSON Data [{"content": "hii", "date":...}]
-    deactivate server
-    
-    Note right of browser: The browser executes the callbackk function that renders the notes.
-    
-
+    Note right of browser: The browser executes the callback function that renders the notes.    
